@@ -28,7 +28,7 @@ console.log("___________________________________________")
 function palindrome_check (x){
     let word = "";
     let y = true ;
-    for(let i = 0 ; i < (x.length -1)/ 2 ; i++){
+    for(let i = 0 ; i < (x.length)/ 2 ; i++){
         if(x[i] == x[x.length - 1]){
             x.length-- ;
             y = true ;
